@@ -28,7 +28,7 @@ else '6-%%i^^+&2rawq+@1-+gkthkit_&i8!p)_yq&cnh2yn^9)4c4@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '0.0.0.0', 'sheltered-lowlands-17515.herokuapp.com']
 
 
 # Application definition
