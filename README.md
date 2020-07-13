@@ -7,7 +7,7 @@ https://sheltered-lowlands-17515.herokuapp.com
   - скачать проект и перейти в директорию проекта
   ```
 $ git clone https://github.com/LovingFox/PWS-15_d6_petshouse
-$ cd PWS-15_d6_CBV
+$ cd PWS-15_d6_petshouse
 ```
   - создать виртуальное окружение
   ```
