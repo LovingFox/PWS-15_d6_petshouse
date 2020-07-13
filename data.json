@@ -1,5 +1,226 @@
 [
 {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "pet",
+        "model": "pet"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "pet",
+        "model": "animalkind"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "pet",
+        "model": "animalbreed"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "4omhgn8b57fdvcpu28sxa0sgfezdjcmz",
+    "fields": {
+        "session_data": "ZmMwOTZlODhlNGRmMzMxNTE1MzQ5MDg4YTJhMGQ2NmY3MjNiNzRjNTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI2NGE4M2M2ZmNhNjM3MmIyZTMwYjEyNmM4MGUxYWZlZDNmODkyYmI3In0=",
+        "expire_date": "2020-07-27T04:58:55.176Z"
+    }
+},
+{
+    "model": "pet.animalkind",
+    "pk": "b57e9b1b-e5e3-456d-85e7-4e0c55873e23",
+    "fields": {
+        "name": "\u041a\u0438\u0442"
+    }
+},
+{
+    "model": "pet.animalkind",
+    "pk": "d7b85a77-26b8-484f-b568-8b15bb77af2e",
+    "fields": {
+        "name": "\u041e\u043b\u0435\u043d\u044c"
+    }
+},
+{
+    "model": "pet.animalkind",
+    "pk": "ecaf708c-84a6-43bd-b756-22c8486fea02",
+    "fields": {
+        "name": "\u041a\u0430\u043f\u0438\u0431\u0430\u0440\u0430"
+    }
+},
+{
+    "model": "pet.animalbreed",
+    "pk": "002742f3-8aab-4653-8766-a4b8af08993d",
+    "fields": {
+        "name": "\u041f\u0443\u0434\u0435\u043b\u044c",
+        "kind": "ecaf708c-84a6-43bd-b756-22c8486fea02"
+    }
+},
+{
+    "model": "pet.animalbreed",
+    "pk": "13b143c7-859e-45d8-893e-a96f80c31677",
+    "fields": {
+        "name": "\u041e\u0432\u0447\u0430\u0440\u043a\u0430",
+        "kind": "ecaf708c-84a6-43bd-b756-22c8486fea02"
+    }
+},
+{
+    "model": "pet.animalbreed",
+    "pk": "1654a7f7-c383-4c61-8a90-5c7d91deaff9",
+    "fields": {
+        "name": "\u0421\u0435\u0432\u0435\u0440\u043d\u044b\u0439",
+        "kind": "d7b85a77-26b8-484f-b568-8b15bb77af2e"
+    }
+},
+{
+    "model": "pet.animalbreed",
+    "pk": "26af25e2-62dc-4d24-abe1-b2f618fae5c2",
+    "fields": {
+        "name": "\u0421\u0438\u043d\u0438\u0439",
+        "kind": "b57e9b1b-e5e3-456d-85e7-4e0c55873e23"
+    }
+},
+{
+    "model": "pet.animalbreed",
+    "pk": "44685466-fbd1-4d1f-a8e8-52aff5482695",
+    "fields": {
+        "name": "\u0414\u0432\u043e\u0440\u043d\u044f\u0433\u0430",
+        "kind": "ecaf708c-84a6-43bd-b756-22c8486fea02"
+    }
+},
+{
+    "model": "pet.animalbreed",
+    "pk": "d0ade5cf-caf4-4c7a-a49b-bc2735ccda8d",
+    "fields": {
+        "name": "\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0438\u0439",
+        "kind": "d7b85a77-26b8-484f-b568-8b15bb77af2e"
+    }
+},
+{
+    "model": "pet.pet",
+    "pk": "0a3b2fee-e5b0-4a94-84d3-0a1a400aae8a",
+    "fields": {
+        "name": "\u0418\u0441\u0442\u0440\u0435\u0431\u0438\u0442\u0435\u043b\u044c",
+        "breed": "13b143c7-859e-45d8-893e-a96f80c31677",
+        "description": "\u041d\u0435\u0437\u043b\u043e\u0431\u043d\u044b\u0439 \u043f\u0443\u0448\u0438\u0441\u0442\u0438\u043a-\u0442\u0435\u0440\u043c\u0438\u043d\u0430\u0442\u043e\u0440",
+        "coming_date": "2020-07-13",
+        "condition": 10,
+        "photo": "pets_photo/kapibara_istrebitel.png"
+    }
+},
+{
+    "model": "pet.pet",
+    "pk": "27925038-0d36-4761-b447-701255bc37be",
+    "fields": {
+        "name": "\u0419\u0443-\u0445\u0443-\u0443-\u0443",
+        "breed": "1654a7f7-c383-4c61-8a90-5c7d91deaff9",
+        "description": "\u0411\u0435\u0433\u0430\u0435\u0442, \u043f\u0440\u044b\u0433\u0430\u0435\u0442, \u0432\u044b\u043f\u0438\u0432\u0430\u0435\u0442. \u0425\u043e\u0440\u043e\u0448\u0438\u0439 \u0434\u0440\u0443\u0433.",
+        "coming_date": "2020-07-13",
+        "condition": 10,
+        "photo": "pets_photo/olen_severniy.png"
+    }
+},
+{
+    "model": "pet.pet",
+    "pk": "4d036a4a-ca25-430f-9fe8-27bc9490b2e8",
+    "fields": {
+        "name": "\u0416\u0440\u0430\u0442\u044c!",
+        "breed": "44685466-fbd1-4d1f-a8e8-52aff5482695",
+        "description": "\u0416\u0440\u0435\u0442, \u0435\u0441\u0442, \u0437\u0430\u0433\u043b\u0430\u0442\u044b\u0432\u0430\u0435\u0442 \u0435\u0434\u0443, \u043f\u043e\u0442\u0440\u0435\u0431\u043b\u044f\u0435\u0442 \u043f\u0438\u0449\u0443.",
+        "coming_date": "2020-07-13",
+        "condition": 10,
+        "photo": "pets_photo/kapibara_zhrat.png"
+    }
+},
+{
+    "model": "pet.pet",
+    "pk": "b5f50e19-6a6d-40ce-874f-2e78b2caf8fe",
+    "fields": {
+        "name": "\u041d\u044f\u0448\u0430",
+        "breed": "002742f3-8aab-4653-8766-a4b8af08993d",
+        "description": "\u041b\u044e\u0431\u0438\u0442 \u043a\u043e\u0442\u043e\u0432. \u0415\u0441\u0442\u044c.",
+        "coming_date": "2020-07-13",
+        "condition": 20,
+        "photo": "pets_photo/kapibara_nyasha.png"
+    }
+},
+{
+    "model": "pet.pet",
+    "pk": "c8e6a0bb-6bea-42f5-b1bf-b5004c9f8aa3",
+    "fields": {
+        "name": "Yellow Submarine",
+        "breed": "26af25e2-62dc-4d24-abe1-b2f618fae5c2",
+        "description": "We all live in a yellow submarine\r\nYellow submarine, yellow submarine",
+        "coming_date": "2020-07-13",
+        "condition": 20,
+        "photo": "pets_photo/kit_yellow_submarine.png"
+    }
+},
+{
+    "model": "pet.pet",
+    "pk": "d8a9fef7-2ceb-4e38-8fd9-4daa349f5df2",
+    "fields": {
+        "name": "\u0414\u044f\u0442\u0435\u043b",
+        "breed": "d0ade5cf-caf4-4c7a-a49b-bc2735ccda8d",
+        "description": "\u0416\u0430\u043b\u043e\u043a, \u043d\u0435\u043c\u043e\u0449\u0435\u043d, \u043d\u0435\u0432\u043c\u0435\u043d\u044f\u0435\u043c",
+        "coming_date": "2020-07-13",
+        "condition": 30,
+        "photo": "pets_photo/olen_moskovskiy.png"
+    }
+},
+{
     "model": "auth.permission",
     "pk": 1,
     "fields": {
@@ -447,155 +668,6 @@
         "date_joined": "2020-07-09T05:53:00.888Z",
         "groups": [],
         "user_permissions": []
-    }
-},
-{
-    "model": "sessions.session",
-    "pk": "4omhgn8b57fdvcpu28sxa0sgfezdjcmz",
-    "fields": {
-        "session_data": "ZmMwOTZlODhlNGRmMzMxNTE1MzQ5MDg4YTJhMGQ2NmY3MjNiNzRjNTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI2NGE4M2M2ZmNhNjM3MmIyZTMwYjEyNmM4MGUxYWZlZDNmODkyYmI3In0=",
-        "expire_date": "2020-07-27T04:58:55.176Z"
-    }
-},
-{
-    "model": "pet.animalkind",
-    "pk": "b57e9b1b-e5e3-456d-85e7-4e0c55873e23",
-    "fields": {
-        "name": "\u041a\u0438\u0442"
-    }
-},
-{
-    "model": "pet.animalkind",
-    "pk": "d7b85a77-26b8-484f-b568-8b15bb77af2e",
-    "fields": {
-        "name": "\u041e\u043b\u0435\u043d\u044c"
-    }
-},
-{
-    "model": "pet.animalkind",
-    "pk": "ecaf708c-84a6-43bd-b756-22c8486fea02",
-    "fields": {
-        "name": "\u041a\u0430\u043f\u0438\u0431\u0430\u0440\u0430"
-    }
-},
-{
-    "model": "pet.animalbreed",
-    "pk": "002742f3-8aab-4653-8766-a4b8af08993d",
-    "fields": {
-        "name": "\u041f\u0443\u0434\u0435\u043b\u044c",
-        "kind": "ecaf708c-84a6-43bd-b756-22c8486fea02"
-    }
-},
-{
-    "model": "pet.animalbreed",
-    "pk": "13b143c7-859e-45d8-893e-a96f80c31677",
-    "fields": {
-        "name": "\u041e\u0432\u0447\u0430\u0440\u043a\u0430",
-        "kind": "ecaf708c-84a6-43bd-b756-22c8486fea02"
-    }
-},
-{
-    "model": "pet.animalbreed",
-    "pk": "1654a7f7-c383-4c61-8a90-5c7d91deaff9",
-    "fields": {
-        "name": "\u0421\u0435\u0432\u0435\u0440\u043d\u044b\u0439",
-        "kind": "d7b85a77-26b8-484f-b568-8b15bb77af2e"
-    }
-},
-{
-    "model": "pet.animalbreed",
-    "pk": "26af25e2-62dc-4d24-abe1-b2f618fae5c2",
-    "fields": {
-        "name": "\u0421\u0438\u043d\u0438\u0439",
-        "kind": "b57e9b1b-e5e3-456d-85e7-4e0c55873e23"
-    }
-},
-{
-    "model": "pet.animalbreed",
-    "pk": "44685466-fbd1-4d1f-a8e8-52aff5482695",
-    "fields": {
-        "name": "\u0414\u0432\u043e\u0440\u043d\u044f\u0433\u0430",
-        "kind": "ecaf708c-84a6-43bd-b756-22c8486fea02"
-    }
-},
-{
-    "model": "pet.animalbreed",
-    "pk": "d0ade5cf-caf4-4c7a-a49b-bc2735ccda8d",
-    "fields": {
-        "name": "\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0438\u0439",
-        "kind": "d7b85a77-26b8-484f-b568-8b15bb77af2e"
-    }
-},
-{
-    "model": "pet.pet",
-    "pk": "0a3b2fee-e5b0-4a94-84d3-0a1a400aae8a",
-    "fields": {
-        "name": "\u0418\u0441\u0442\u0440\u0435\u0431\u0438\u0442\u0435\u043b\u044c",
-        "breed": "13b143c7-859e-45d8-893e-a96f80c31677",
-        "description": "\u041d\u0435\u0437\u043b\u043e\u0431\u043d\u044b\u0439 \u043f\u0443\u0448\u0438\u0441\u0442\u0438\u043a-\u0442\u0435\u0440\u043c\u0438\u043d\u0430\u0442\u043e\u0440",
-        "coming_date": "2020-07-13",
-        "condition": 10,
-        "photo": "pets_photo/kapibara_istrebitel.png"
-    }
-},
-{
-    "model": "pet.pet",
-    "pk": "27925038-0d36-4761-b447-701255bc37be",
-    "fields": {
-        "name": "\u0419\u0443-\u0445\u0443-\u0443-\u0443",
-        "breed": "1654a7f7-c383-4c61-8a90-5c7d91deaff9",
-        "description": "\u0411\u0435\u0433\u0430\u0435\u0442, \u043f\u0440\u044b\u0433\u0430\u0435\u0442, \u0432\u044b\u043f\u0438\u0432\u0430\u0435\u0442. \u0425\u043e\u0440\u043e\u0448\u0438\u0439 \u0434\u0440\u0443\u0433.",
-        "coming_date": "2020-07-13",
-        "condition": 10,
-        "photo": "pets_photo/olen_severniy.png"
-    }
-},
-{
-    "model": "pet.pet",
-    "pk": "4d036a4a-ca25-430f-9fe8-27bc9490b2e8",
-    "fields": {
-        "name": "\u0416\u0440\u0430\u0442\u044c!",
-        "breed": "44685466-fbd1-4d1f-a8e8-52aff5482695",
-        "description": "\u0416\u0440\u0435\u0442, \u0435\u0441\u0442, \u0437\u0430\u0433\u043b\u0430\u0442\u044b\u0432\u0430\u0435\u0442 \u0435\u0434\u0443, \u043f\u043e\u0442\u0440\u0435\u0431\u043b\u044f\u0435\u0442 \u043f\u0438\u0449\u0443.",
-        "coming_date": "2020-07-13",
-        "condition": 10,
-        "photo": "pets_photo/kapibara_zhrat.png"
-    }
-},
-{
-    "model": "pet.pet",
-    "pk": "b5f50e19-6a6d-40ce-874f-2e78b2caf8fe",
-    "fields": {
-        "name": "\u041d\u044f\u0448\u0430",
-        "breed": "002742f3-8aab-4653-8766-a4b8af08993d",
-        "description": "\u041b\u044e\u0431\u0438\u0442 \u043a\u043e\u0442\u043e\u0432. \u0415\u0441\u0442\u044c.",
-        "coming_date": "2020-07-13",
-        "condition": 20,
-        "photo": "pets_photo/kapibara_nyasha.png"
-    }
-},
-{
-    "model": "pet.pet",
-    "pk": "c8e6a0bb-6bea-42f5-b1bf-b5004c9f8aa3",
-    "fields": {
-        "name": "Yellow Submarine",
-        "breed": "26af25e2-62dc-4d24-abe1-b2f618fae5c2",
-        "description": "We all live in a yellow submarine\r\nYellow submarine, yellow submarine",
-        "coming_date": "2020-07-13",
-        "condition": 20,
-        "photo": "pets_photo/kit_yellow_submarine.png"
-    }
-},
-{
-    "model": "pet.pet",
-    "pk": "d8a9fef7-2ceb-4e38-8fd9-4daa349f5df2",
-    "fields": {
-        "name": "\u0414\u044f\u0442\u0435\u043b",
-        "breed": "d0ade5cf-caf4-4c7a-a49b-bc2735ccda8d",
-        "description": "\u0416\u0430\u043b\u043e\u043a, \u043d\u0435\u043c\u043e\u0449\u0435\u043d, \u043d\u0435\u0432\u043c\u0435\u043d\u044f\u0435\u043c",
-        "coming_date": "2020-07-13",
-        "condition": 30,
-        "photo": "pets_photo/olen_moskovskiy.png"
     }
 },
 {
