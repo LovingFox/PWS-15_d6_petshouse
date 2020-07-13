@@ -9,6 +9,9 @@ from pet.models import Pet
 class ViewIndex(TemplateView):
     template_name = 'index.html'
 
+class ViewAbout(TemplateView):
+    template_name = 'about.html'
+
 class ListViewPet(ListView):
     template_name = 'pets_list.html'
     model = Pet
