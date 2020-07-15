@@ -20,6 +20,7 @@ from django.conf.urls.static import static
 from pet.views import ViewIndex, ListViewPet, ViewPet, ViewAbout
 
 urlpatterns = [
+    path('admin/', admin.site.urls),
     path('about/', ViewAbout.as_view(), name='about'),
     path('', ViewIndex.as_view(), name='index'),
     path('pets', ListViewPet.as_view(), name='pets'),
